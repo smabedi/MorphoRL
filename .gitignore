@@ -1,0 +1,19 @@
+# --- Godot 4 ---
+godot-project/.godot/
+godot-project/.mono/
+godot-project/data_*/
+godot-project/*.translation
+# Keep *.import files tracked. Godot 4 needs them to preserve asset UIDs.
+
+# --- Python & RL Training ---
+python-trainer/.venv/
+**/__pycache__/
+*.py[cod]
+python-trainer/runs/
+python-trainer/logs/
+python-trainer/checkpoints/
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.idea/
